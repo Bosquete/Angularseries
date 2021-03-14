@@ -1,0 +1,25 @@
+.principal {
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.movies {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.series {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    margin: 5px;
+    border-radius: 10px;
+}

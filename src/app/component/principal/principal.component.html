@@ -1,0 +1,12 @@
+
+<div class='principal'>
+    <h2>Películas recientes</h2>
+    <div class="peliculas">
+        <img class='image' *ngFor="let movies of peliculasData" src="https://image.tmdb.org/t/p/w220_and_h330_face/{{peliculas.poster_path}}" alt="">        
+    </div>
+    <h2>Series recientes</h2>
+    <div class="series">
+        <img class='image' *ngFor="let movies of seriesData" src="https://image.tmdb.org/t/p/w220_and_h330_face/{{series.poster_path}}" alt="">
+        
+    </div>
+</div>
